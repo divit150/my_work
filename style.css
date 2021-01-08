@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+#app {
+    height: 800px;
+    width: 100%;
+    background-color: aqua;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
